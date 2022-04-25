@@ -1,6 +1,9 @@
 import requests
 import sys
 
+x = [1,2,3]
+for i in x:
+    print(i)
 
 def get_www_text(www):
     raw_info = requests.get(www)
